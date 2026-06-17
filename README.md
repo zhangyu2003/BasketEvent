@@ -223,10 +223,8 @@ Resume training:
 
 ```bash
 torchrun --nproc_per_node=4 train.py \
-  --resume \
-  --resume_ckpt ckpt_train/latest.pt \
-  --bbox_dir /DB/data/yuzhang/basketball/train \
-  --video_dir /DB/data/yuzhang/basketball/videos \
+  --bbox_dir train \
+  --video_dir videos \
   --cache_dir cache \
   --save_dir ckpt_train
 ```
@@ -242,10 +240,10 @@ localization-related metrics.
 ```bash
 torchrun --nproc_per_node=4 test.py \
   --ckpt ckpt/epoch_best.pt \
-  --test_dir /DB/data/yuzhang/basketball/test_ball_new \
-  --video_dir /DB/data/yuzhang/basketball/videos \
+  --test_dir test \
+  --video_dir videos \
   --cache_dir cache \
-  --time_csv examples/event_time_labels.csv \
+  --time_csv event_time_labels.csv \
   --bag_clips 12 \
   --clip_len 8 \
   --fps_in 25 \
@@ -263,7 +261,7 @@ player-event pairs whose event class is not `blank`.
 python inference.py \
   --video examples/4712c593-1cd3-fc7f-be55-1b967fadac0f_1280x720.mp4 \
   --traj_json examples/4712c593-1cd3-fc7f-be55-1b967fadac0f_1280x720.json \
-  --checkpoint ckpt/epoch_best.pt \
+  --checkpoint ckpt.pt \
   --bag_clips 12 \
   --clip_len 8 \
   --fps_in 25 \
