@@ -2,7 +2,7 @@
 
 <div style="line-height: 1;">
   <a href="https://zhangyu2003.github.io/BasketEvent/" target="_blank" style="margin: 2px;">
-    <img alt="Website" src="https://img.shields.io/badge/Website🌐-SoccerMaster-536af5?color=536af5&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
+    <img alt="Website" src="https://img.shields.io/badge/Website🌐-BasketEvent-536af5?color=536af5&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
   </a>
 </div>
 
