@@ -202,10 +202,12 @@ File: `train.py`
 Purpose: read cleaned trajectory JSON files and corresponding videos, construct
 multi-clip bags, and train `PlayerEventModel`.
 
+We'll provide detailed annotation json files to skip the first two steps. For the test dataset, we manually labeled the relationships between trajectories and events to make sure the data is correct.
+
 ```bash
 torchrun --nproc_per_node=4 train.py \
-  --bbox_dir /DB/data/yuzhang/basketball/train \
-  --video_dir /DB/data/yuzhang/basketball/videos \
+  --bbox_dir data/train \
+  --video_dir data/videos \
   --cache_dir cache \
   --save_dir ckpt_train \
   --bag_clips 4 \
@@ -216,15 +218,6 @@ torchrun --nproc_per_node=4 train.py \
   --epochs 10
 ```
 
-Resume training:
-
-```bash
-torchrun --nproc_per_node=4 train.py \
-  --bbox_dir train \
-  --video_dir videos \
-  --cache_dir cache \
-  --save_dir ckpt_train
-```
 
 ### Step 4: Evaluate the Model
 
@@ -237,10 +230,10 @@ localization-related metrics.
 ```bash
 torchrun --nproc_per_node=4 test.py \
   --ckpt ckpt/epoch_best.pt \
-  --test_dir test \
-  --video_dir videos \
+  --test_dir data/test \
+  --video_dir data/videos \
   --cache_dir cache \
-  --time_csv event_time_labels.csv \
+  --time_csv data/event_time_labels.csv \
   --bag_clips 12 \
   --clip_len 8 \
   --fps_in 25 \
