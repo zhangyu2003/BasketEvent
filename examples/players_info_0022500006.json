@@ -1,0 +1,170 @@
+{
+  "game_id": "0022500006",
+  "num_players": 20,
+  "jersey_color": {
+    "Nuggets": "black",
+    "Warriors": "white"
+  },
+  "players": [
+    {
+      "player_id": 202710,
+      "name": "J. Butler III",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "38:34",
+      "jersey": "10"
+    },
+    {
+      "player_id": 1630228,
+      "name": "J. Kuminga",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "36:15",
+      "jersey": "1"
+    },
+    {
+      "player_id": 203110,
+      "name": "D. Green",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "34:18",
+      "jersey": "23"
+    },
+    {
+      "player_id": 1641764,
+      "name": "B. Podziemski",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "34:24",
+      "jersey": "2"
+    },
+    {
+      "player_id": 201939,
+      "name": "S. Curry",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "36:58",
+      "jersey": "30"
+    },
+    {
+      "player_id": 1627741,
+      "name": "B. Hield",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "22:57",
+      "jersey": "7"
+    },
+    {
+      "player_id": 1627780,
+      "name": "G. Payton II",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "11:30",
+      "jersey": "0"
+    },
+    {
+      "player_id": 201143,
+      "name": "A. Horford",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "28:60",
+      "jersey": "20"
+    },
+    {
+      "player_id": 1642954,
+      "name": "W. Richard",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "16:42",
+      "jersey": "3"
+    },
+    {
+      "player_id": 1642366,
+      "name": "Q. Post",
+      "team_id": 1610612744,
+      "team_name": "Warriors",
+      "minutes": "4:22",
+      "jersey": "21"
+    },
+    {
+      "player_id": 1629661,
+      "name": "C. Johnson",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "32:01",
+      "jersey": "23"
+    },
+    {
+      "player_id": 203932,
+      "name": "A. Gordon",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "38:39",
+      "jersey": "32"
+    },
+    {
+      "player_id": 203999,
+      "name": "N. Jokić",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "40:50",
+      "jersey": "15"
+    },
+    {
+      "player_id": 1631128,
+      "name": "C. Braun",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "38:27",
+      "jersey": "0"
+    },
+    {
+      "player_id": 1627750,
+      "name": "J. Murray",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "40:01",
+      "jersey": "27"
+    },
+    {
+      "player_id": 203501,
+      "name": "T. Hardaway Jr.",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "21:45",
+      "jersey": "10"
+    },
+    {
+      "player_id": 1628971,
+      "name": "B. Brown",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "19:22",
+      "jersey": "11"
+    },
+    {
+      "player_id": 1631212,
+      "name": "P. Watson",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "15:58",
+      "jersey": "8"
+    },
+    {
+      "player_id": 202685,
+      "name": "J. Valančiūnas",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "12:10",
+      "jersey": "17"
+    },
+    {
+      "player_id": 1642461,
+      "name": "S. Jones",
+      "team_id": 1610612743,
+      "team_name": "Nuggets",
+      "minutes": "5:47",
+      "jersey": "21"
+    }
+  ]
+}
