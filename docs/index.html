@@ -1,63 +1,48 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="BasketEvent: Understanding Who Did What and When in Basketball Videos - Yu Zhang, Jiayuan Rao, Haoning Wu, Weidi Xie">
+  <meta name="description" content="BasketEvent is a player-centric basketball video understanding benchmark for identifying who performs an event, what happens, and when evidence appears.">
+  <meta name="keywords" content="BasketEvent, PlayNet, basketball video understanding, player-centric event recognition, temporal localization, sports video analysis, computer vision">
+  <meta name="author" content="Yu Zhang, Jiayuan Rao, Haoning Wu, Weidi Xie">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:site_name" content="Shanghai Jiao Tong University">
+  <meta property="og:title" content="BasketEvent: Understanding Who Did What and When in Basketball Videos">
+  <meta property="og:description" content="A player-centric basketball video understanding benchmark and PlayNet framework for who-what-when event reasoning.">
+  <meta property="og:url" content="https://zhangyu2003.github.io/BasketEvent/">
+  <meta property="og:image" content="https://zhangyu2003.github.io/BasketEvent/static/images/overview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="og:image:alt" content="BasketEvent research overview">
+  <meta property="article:published_time" content="2026-01-01T00:00:00.000Z">
+  <meta property="article:author" content="Yu Zhang">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="Basketball Video Understanding">
+  <meta property="article:tag" content="Player-Centric Event Recognition">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:title" content="BasketEvent: Understanding Who Did What and When in Basketball Videos">
+  <meta name="twitter:description" content="A player-centric basketball video understanding benchmark and PlayNet framework for who-what-when event reasoning.">
+  <meta name="twitter:image" content="https://zhangyu2003.github.io/BasketEvent/static/images/overview.png">
+  <meta name="twitter:image:alt" content="BasketEvent research overview">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  <meta name="citation_title" content="BasketEvent: Understanding Who Did What and When in Basketball Videos">
+  <meta name="citation_author" content="Zhang, Yu">
+  <meta name="citation_author" content="Rao, Jiayuan">
+  <meta name="citation_author" content="Wu, Haoning">
+  <meta name="citation_author" content="Xie, Weidi">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="BMVC 2026">
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -72,9 +57,7 @@
   <link rel="preconnect" href="https://documentcloud.adobe.com">
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
-
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>BasketEvent: Understanding Who Did What and When in Basketball Videos</title>
   
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
@@ -114,50 +97,66 @@
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "BasketEvent: Understanding Who Did What and When in Basketball Videos",
+    "description": "BasketEvent is a player-centric basketball video understanding benchmark for identifying who performs an event, what happens, and when evidence appears.",
     "author": [
       {
         "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
+        "name": "Yu Zhang",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "Shanghai Jiao Tong University"
         }
       },
       {
         "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
+        "name": "Jiayuan Rao",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "Shanghai Jiao Tong University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Haoning Wu",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Shanghai Jiao Tong University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Weidi Xie",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Shanghai Jiao Tong University"
         }
       }
     ],
-    "datePublished": "2024-01-01",
+    "datePublished": "2026-01-01",
     "publisher": {
       "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
+      "name": "BMVC 2026"
     },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
+    "url": "https://zhangyu2003.github.io/BasketEvent/",
+    "image": "https://zhangyu2003.github.io/BasketEvent/static/images/overview.png",
+    "keywords": ["BasketEvent", "PlayNet", "basketball video understanding", "player-centric event recognition", "temporal localization", "sports video analysis", "computer vision"],
+    "abstract": "Comprehensive basketball video understanding requires resolving not only what event occurs, but also who is responsible and when the key evidence appears. BasketEvent is a player-centric basketball event understanding dataset curated from real NBA broadcasts, with event labels grounded to responsible players and a temporally annotated subset for evidence localization. Based on this data, PlayNet maps basketball videos to player-level event predictions with temporal evidence by modeling player-player, player-ball, and global court interactions.",
+    "citation": "Yu Zhang, Jiayuan Rao, Haoning Wu, and Weidi Xie. BasketEvent: Understanding Who Did What and When in Basketball Videos. BMVC 2026.",
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+      "@id": "https://zhangyu2003.github.io/BasketEvent/"
     },
     "about": [
       {
         "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
+        "name": "Basketball Video Understanding"
       },
       {
         "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
+        "name": "Player-Centric Event Recognition"
       }
     ]
   }
@@ -168,12 +167,11 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "name": "Shanghai Jiao Tong University",
+    "url": "https://www.sjtu.edu.cn/",
+    "logo": "https://zhangyu2003.github.io/BasketEvent/static/images/favicon.ico",
     "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
+      "https://github.com/zhangyu2003/BasketEvent"
     ]
   }
   </script>
@@ -186,107 +184,36 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <main id="main-content">
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">BasketEvent: Understanding Who Did What and When in Basketball Videos</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+                <a href="https://github.com/zhangyu2003" target="_blank">Yu Zhang</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://jyrao.github.io/" target="_blank">Jiayuan Rao</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://haoningwu3639.github.io/" target="_blank">Haoning Wu</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://weidixie.github.io/" target="_blank">Weidi Xie</a><sup>1</sup>
+              </span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>School of Artificial Intelligence, Shanghai Jiao Tong University</span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a href="https://github.com/zhangyu2003/BasketEvent" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -294,19 +221,17 @@
                     <span>Code</span>
                   </a>
                 </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                  <a href="https://huggingface.co/datasets/zaywas/BasketEvent/tree/main" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-database"></i>
+                    </span>
+                    <span>Data</span>
+                  </a>
+                </span>
+              </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
@@ -314,23 +239,18 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser image-->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
+      <img src="static/images/overview.png" alt="Overview of the BasketEvent benchmark and task pipeline">
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Overview of the proposed task and <b>PlayNet</b>. Given an input basketball video, our framework answers three player-centric questions: who performs the event, what event occurs, and when the key evidence appears.
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End teaser image -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -339,9 +259,8 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Comprehensive basketball video understanding requires resolving not only <em>what</em> event occurs, but also <em>who</em> is responsible and <em>when</em> the key evidence appears. However, existing methods typically treat spatial perception and semantic recognition as isolated tasks, failing to ground events to individual players or pinpoint their temporal boundaries within complex collective dynamics. To bridge this gap, we introduce <strong>BasketEvent</strong>, a player-centric basketball event understanding dataset curated from real NBA broadcasts. In BasketEvent, event labels are grounded to the responsible players, and a manually annotated subset of 1,000 samples with precise event intervals is provided to evaluate temporal evidence localization. Based on this data, we propose <strong>PlayNet</strong>, a player-centric reasoning framework that maps basketball videos to player-level event predictions with temporal evidence. Concretely, PlayNet tracks key entities, associates player identities, and reasons about events by modeling player-player, player-ball, and global court interactions, while aggregating sparse temporal evidence via gated pooling. Extensive experiments demonstrate that PlayNet significantly outperforms representative video-level and crop-based baselines, proving the superiority of player-centric modeling for fine-grained sports video understanding. Our data, code, and models will be made publicly available.
           </p>
         </div>
       </div>
@@ -350,156 +269,145 @@
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
+<!-- Dataset -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Dataset</h2>
+        <div class="content has-text-justified">
+          <p>
+            <strong>BasketEvent</strong> is a player-centric basketball event understanding dataset curated from real NBA broadcasts. Starting from official NBA play-by-play records, we collect event-centered video clips and normalize structured metadata into 10 representative event categories: <em>Missed Shot</em>, <em>Made Shot</em>, <em>Free Throw</em>, <em>Foul</em>, <em>Turnover</em>, <em>Jump Ball</em>, <em>Rebound</em>, <em>Steal</em>, <em>Block</em>, and <em>Assist</em>. Each event is grounded to the responsible player, enabling models to reason about not only <em>what</em> happens, but also <em>who</em> performs the event.
+          </p>
+          <p>
+            The dataset contains approximately <strong>35K videos</strong>, <strong>90.6 hours</strong> of broadcast footage, and <strong>51K player-level samples</strong>. To evaluate generalization, BasketEvent is split at the game level, with 189 games for training and 37 unseen games for testing. We further provide a manually annotated temporal evaluation subset of <strong>1,000 player-level samples</strong>, where each sample includes precise start and end timestamps for the target event, supporting evaluation of <em>when</em> the key evidence appears.
+          </p>
         </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <img src="static/images/dataset.png" alt="Overview of the BasketEvent dataset construction and statistics" loading="lazy">
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+<!-- End dataset -->
 
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
+<!-- Method -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose <strong>PlayNet</strong>, a player-centric framework that predicts <em>who-what-when</em> event tuples from basketball videos. PlayNet grounds players and the ball, associates player identities, and extracts trajectory-guided features for each visual entity.
+          </p>
+          <p>
+            The model reasons over <strong>global-player</strong>, <strong>player-player</strong>, and <strong>player-ball</strong> interactions, then uses gated temporal pooling to focus on decisive moments and localize <em>when</em> the event evidence occurs.
+          </p>
         </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <img src="static/images/method.png" alt="Architecture of the proposed PlayNet method" loading="lazy">
       </div>
     </div>
   </div>
 </section>
-<!-- End video carousel -->
+<!-- End method -->
 
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
+<!-- Main results -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Main Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            We compare <strong>PlayNet</strong> with representative crop-based video baselines, including <strong>R3D</strong>, <strong>SlowFast</strong>, and <strong>TimeSformer</strong>. PlayNet consistently achieves the best recognition performance on BasketEvent, improving F1-score from <strong>0.456</strong> to <strong>0.682</strong> and Rec@1 from <strong>0.445</strong> to <strong>0.701</strong> over the strongest baseline.
+          </p>
+          <p>
+            These results show that player-centric reasoning is more effective than isolated player crops. PlayNet also achieves <strong>0.424</strong> Hit@0.3 and <strong>0.380</strong> Hit@0.5 for localizing <em>when</em> key evidence appears.
+          </p>
+        </div>
       </div>
     </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <img src="static/images/result1.png" alt="Main quantitative comparison between PlayNet and baseline methods" loading="lazy">
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
     </div>
+  </div>
 </section>
-<!--End BibTex citation -->
+<!-- End main results -->
 
+<!-- Ablation study -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Ablation Study</h2>
+      </div>
+    </div>
 
-  <footer class="footer">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Component Ablation</h3>
+        <div class="content has-text-justified">
+          <p>
+            Removing key components consistently hurts recognition performance. Compared with the simple <strong>ROI+Gate</strong> baseline, full <strong>PlayNet</strong> improves F1-score from <strong>0.520</strong> to <strong>0.682</strong>, showing the importance of global context, player-player interaction, and ball dynamics.
+          </p>
+        </div>
+        <img src="static/images/result2.png" alt="Component ablation results of PlayNet" loading="lazy">
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h3 class="title is-4">Sampling Ablation</h3>
+        <div class="content has-text-justified">
+          <p>
+            We study the effect of frame rate and clip number. The setting <strong>FPS=4</strong> and <strong>M=12</strong> gives the best overall recognition result, balancing motion detail and temporal coverage.
+          </p>
+        </div>
+        <img src="static/images/result3.png" alt="Sampling ablation results of PlayNet" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End ablation study -->
+
+<!-- Qualitative examples -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Qualitative Examples</h2>
+        <div class="content has-text-justified">
+          <p>
+            These examples show <strong>PlayNet</strong> predictions on BasketEvent videos. For each case, the model predicts <em>who</em> performs the event, <em>what</em> event occurs, and <em>when</em> the supporting evidence appears.
+          </p>
+        </div>
+        <img src="static/images/result.png" alt="Qualitative examples of PlayNet predictions on BasketEvent videos" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End qualitative examples -->
+
+</main>
+
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
@@ -509,12 +417,6 @@
     </div>
   </div>
 </footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
 
   </body>
   </html>
