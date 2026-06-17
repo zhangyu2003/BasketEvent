@@ -1,4 +1,11 @@
 # BasketEvent
+
+<div style="line-height: 1;">
+  <a href="https://zhangyu2003.github.io/BasketEvent/" target="_blank" style="margin: 2px;">
+    <img alt="Website" src="https://img.shields.io/badge/Website🌐-SoccerMaster-536af5?color=536af5&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+</div>
+
 <img src="images/overview.png" alt="BasketEvent overview" width="100%">
 BasketEvent is an automatic player-level event-recognition project for basketball game
 videos. Starting from raw broadcast videos, it first uses SAM3 for open-vocabulary
