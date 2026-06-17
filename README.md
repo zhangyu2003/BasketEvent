@@ -71,9 +71,6 @@ https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct
 
 `recognize.py` currently expects this local path:
 
-```text
-/GPFS/public/Qwen2.5-VL-7B-Instruct
-```
 
 ## 2. Data Storage Format
 
