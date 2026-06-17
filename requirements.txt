@@ -1,0 +1,36 @@
+# Python environment: sam3
+# Recommended base:
+#   conda create -n sam3 python=3.12
+#   conda activate sam3
+#   pip install -r requirements.txt
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+
+# PyTorch stack required by SAM3.
+torch==2.7.0+cu126
+torchvision==0.22.0+cu126
+torchaudio==2.7.0+cu126
+
+# Install local SAM3 package plus notebook/train/dev extras from ./sam3/pyproject.toml.
+-e ./sam3[notebooks,train,dev]
+
+# BasketEvent runtime dependencies.
+opencv-python
+pandas
+pillow
+transformers
+qwen-vl-utils
+accelerate
+sentencepiece
+
+# SAM3 runtime/evaluation utilities used by the checked-in scripts.
+matplotlib
+pycocotools
+scikit-image
+scikit-learn
+scipy
+einops
+decord
+pyyaml
+requests
+triton
